@@ -26,7 +26,7 @@ import {
 const personalInfo = {
   name: "Yuvanesh S",
   title: "Project Research Scientist",
-  tagline: "Building software and engineering-driven solutions, including technology-driven rehabilitation systems. Creating practical, reliable solutions with real-world impact.",
+  tagline: "Building software and engineering solutions, including technology-enabled rehabilitation systems, focused on practical, reliable, and real-world impact.",
   email: "yuvansankar2424@gmail.com",
   phone: "",
   location: "Vellore, Tamil Nadu",
@@ -89,7 +89,7 @@ const projects = [
     link: "https://github.com/Yuvanesh24/Mocap.git"
   },
   {
-    title: "Smart Peak Clipping & Load Scheduling",
+    title: "Peak Clipping & Load Scheduling",
     description: "IoT-based power management solution using ESP32 and nRF communication to automate peak clipping and load balancing with real-time monitoring",
     tech: ["Arduino", "Sensors", "IOT", "App Development"],
     link: "https://github.com/Yuvanesh24"
