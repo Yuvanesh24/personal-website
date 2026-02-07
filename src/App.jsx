@@ -33,7 +33,7 @@ const personalInfo = {
   linkedin: "https://www.linkedin.com/in/yuvanesh24/",
   leetcode: "https://leetcode.com/u/Yuvan_07/",
   twitter: "",
-  photo: "/profile-photo.jpg",
+  photo: "/personal-website/profile-photo.jpg",
   photo1: "public/Grad.jpeg"
 };
 
