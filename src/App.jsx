@@ -34,7 +34,7 @@ const personalInfo = {
   leetcode: "https://leetcode.com/u/Yuvan_07/",
   twitter: "",
   photo: "/profile-photo.jpg",
-  photo1: "public/Grad.jpg"
+  photo1: "public/Grad.jpeg"
 };
 
 const education = {
@@ -90,7 +90,7 @@ const projects = [
   {
     title: "Smart Peak Clipping & Load Scheduling",
     description: "IoT-based power management solution using ESP32 and nRF communication to automate peak clipping and load balancing with real-time monitoring",
-    tech: ["Arduino", "Sensors", "Data Collection", "Hardware-Software Integration"],
+    tech: ["Arduino", "Sensors", "IOT", "App Development"],
     link: "https://github.com/Yuvanesh24"
   },
 
@@ -396,7 +396,7 @@ function App() {
                 <img
                   src={personalInfo.photo1}
                   alt={`${personalInfo.name} - Professional Headshot`}
-                  className="w-48 h-64 rounded-lg object-cover border-4 border-purple-600/50 shadow-xl"
+                  className="w-100 h-80 rounded-lg object-cover border-4 border-purple-600/50 shadow-xl"
                   onError={(e) => {
                     e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' fill='%234a5568'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23fff' text-anchor='middle' dy='.3em'%3ENo Photo%3C/text%3E%3C/svg%3E";
                   }}
