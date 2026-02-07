@@ -21,6 +21,7 @@ import {
   LeetCodeIcon
 } from './components/SocialIcons';
 
+
 // 🎨 YOUR PROFESSIONAL DETAILS
 const personalInfo = {
   name: "Yuvanesh S",
@@ -34,7 +35,7 @@ const personalInfo = {
   leetcode: "https://leetcode.com/u/Yuvan_07/",
   twitter: "",
   photo: "/personal-website/profile-photo.jpg",
-  photo1: "public/Grad.jpeg"
+  photo1: "/personal-website/Grad.jpeg",
 };
 
 const education = {
@@ -303,19 +304,19 @@ function App() {
             {[
               {
                 name: "SEC Chennai",
-                logo: "/sec-chennai-logo.jpg"
+                logo: "/personal-website/sec-chennai-logo.jpg"
               },
               {
                 name: "CMC Vellore", 
-                logo: "/cmc-vellore-logo.jpg"
+                logo: "/personal-website/cmc-vellore-logo.jpg"
               },
               {
                 name: "IIT Madras",
-                logo: "/iit-madras-logo.jpg"
+                logo: "/personal-website/iit-madras-logo.jpg"
               },
               {
                 name: "MAHE Manipal",
-                logo: "/mahe-manipal-logo.jpg"
+                logo: "/personal-website/mahe-manipal-logo.jpg"
               }
             ].map((institution, index) => (
               <motion.div
